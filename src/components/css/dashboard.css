@@ -1,0 +1,23 @@
+.content-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-flex > div > p{
+    margin: 0%;
+}
+
+.rowDark{
+    background-color: #f1f1f1 !important;
+}
+
+.dropdown-toggle::after{
+    display: none !important;
+}
+
+.hoverEffect:hover{
+    color: #0d6efd;
+    cursor: pointer;
+}

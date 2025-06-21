@@ -1,0 +1,38 @@
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="email"]:focus, input[type="checkbox"]:focus, input[type="file"]:focus, input[type="tel"]:focus, input[type="number"]:focus,input[type="radio"]:focus, .form-select:focus, button:focus, a:focus, .css-ty2wan-control:focus{
+    border-color: rgba(0, 0, 0, 0.116);
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.css-iq7xrr-control, .css-iq7xrr-control:focus, .css-iq7xrr-control:hover{
+    border-color: rgba(0, 0, 0, 0.116) !important;
+    box-shadow: none !important;
+}
+
+input[type="text"]:hover, input[type="password"]:hover, input[type="date"]:hover, input[type="email"]:hover, input[type="checkbox"]:hover, input[type="file"]:hover, input[type="tel"]:hover, input[type="number"]:hover, input[type="radio"]:hover, input[type="textarea"]:hover, .form-select:hover, button:hover, a:hover, .css-ty2wan-control:hover{
+    border-color: hsl(0%, 0%, 70%);
+}
+
+.custom-table-container{
+    height: 62vh;
+    overflow-x: hidden;
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+    .custom-table-container { 
+        overflow-x: scroll; 
+    }
+    th, td {min-width: 27vw }
+}
+
+.active{
+    color: #FFFFFF !important;
+}
+
+p{
+    color: #989797;
+}
+
+@import 'custom';
+@import '~bootstrap/scss/bootstrap';
+

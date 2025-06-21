@@ -1,0 +1,13 @@
+.advanceSalaryHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .advanceSalaryHeader{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,64 @@
+.login{
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cardContainer{
+    width: 100%;
+    border-radius: 15px !important;
+    border-color: #f1f1f1;
+    box-shadow: 0px 0px 25px #5d5d5d32;
+}
+
+.imageContainer{
+    background-image: url("../../../public/payrole.jpg");
+    width: 50vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.mainTitle{
+    color: #0d6efd;
+    text-align: center;
+    font-weight: bold;
+}
+
+.loginText, .loginPassword{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.otpInput >div{
+    justify-content: space-between;    
+}
+
+.otpInput >div>input[type="tel"]{
+    width: 36px !important;
+    height: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .login{
+        flex-direction: column;
+        padding: 15px;
+    }
+    .imageContainer{
+        display: none;
+    }
+    .loginText, .loginPassword{
+        padding-right: 15px;
+    }
+    .otpInput >div>input[type="tel"]{
+        width: 26px !important;
+    }
+}

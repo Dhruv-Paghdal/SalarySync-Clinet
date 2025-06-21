@@ -1,0 +1,29 @@
+.mainlayout{
+    display: flex;
+    flex-direction: row;
+}
+
+.layoutContentCard{
+    height: 98vh;
+}
+
+.layoutNav{
+    width: 20vw;
+}
+
+.layoutContent{
+    width: 80vw;
+    height: 100vh;
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+    .mainlayout{
+        flex-direction: column;
+    }
+    .layoutNav, .layoutContent{
+        width: 100vw;
+    }
+    .layoutContentCard{
+        height: auto;
+    }
+}
